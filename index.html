@@ -1,0 +1,3047 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>博取AI就业实训基地 - 招生宣传</title>
+<meta name="description" content="博取AI就业实训基地——面向就业的人工智能实训课程，项目制教学，名企导师带练，助力学员高薪就业。">
+<meta property="og:title" content="博取AI就业实训基地 - 招生宣传">
+<meta property="og:description" content="项目制AI实训，名企导师带练，助力高薪就业。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c0b09'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23d4af37' font-family='sans-serif' font-weight='bold'%3E博%3C/text%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #0c0b09;
+  --bg2: #16130d;
+  --surface: #1a1710;
+  --surface-hover: #242016;
+  --ink: #f6ecd2;
+  --muted: #c0ad82;
+  --rule: rgba(212,175,55,0.24);
+  --accent: #d4af37;
+  --accent2: #f0c75e;
+  --accent-glow: rgba(212,175,55,0.16);
+  --orange-glow: rgba(240,199,94,0.14);
+  --gradient-1: linear-gradient(135deg, #f0d98c 0%, #d4af37 100%);
+  --gradient-2: linear-gradient(135deg, #e8c874 0%, #b8860b 100%);
+  --gradient-mix: linear-gradient(135deg, #f6e3a1 0%, #d4af37 50%, #b8860b 100%);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.7;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/* Ambient gradient overlays */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 0%, rgba(212,175,55,0.07), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 30%, rgba(212,175,55,0.05), transparent),
+    radial-gradient(ellipse 50% 30% at 50% 80%, rgba(240,199,94,0.05), transparent);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* ========== HERO ========== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url("assets/images/6c4af88e15b3.webp") center/cover;
+  opacity: 0.12;
+  z-index: 0;
+}
+
+.hero-bg::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(180deg, rgba(12,11,9,0.55) 0%, rgba(12,11,9,0.85) 50%, var(--bg) 100%);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 6px 20px;
+  background: rgba(212,175,55,0.10);
+  border: 1px solid rgba(212,175,55,0.28);
+  border-radius: 100px;
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  background: var(--gradient-mix);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero .subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.hero-stat {
+  text-align: center;
+}
+
+.hero-stat .num {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: var(--gradient-1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-stat .label {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+/* ========== SECTION ========== */
+section {
+  padding: 5rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.section-tag {
+  display: inline-block;
+  padding: 4px 14px;
+  background: rgba(212,175,55,0.10);
+  border: 1px solid rgba(212,175,55,0.28);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.section-desc {
+  font-size: 1.05rem;
+  color: var(--muted);
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+/* ========== CARDS ========== */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5), inset 0 1px 0 rgba(212,175,55,0.06);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(212,175,55,0.14), 0 2px 6px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
+  border-color: rgba(212,175,55,0.55);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-icon.blue { background: rgba(212,175,55,0.14); }
+.card-icon.orange { background: rgba(240,199,94,0.14); }
+.card-icon.purple { background: rgba(212,175,55,0.14); }
+.card-icon.green { background: rgba(212,175,55,0.14); }
+.card-icon.cyan { background: rgba(212,175,55,0.14); }
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.card ul {
+  list-style: none;
+  margin-top: 0.75rem;
+}
+
+.card ul li {
+  padding-left: 1.2rem;
+  position: relative;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.card ul li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+/* ========== TEACHER CARDS ========== */
+.teacher-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5), inset 0 1px 0 rgba(212,175,55,0.06);
+  transition: all 0.3s ease;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.teacher-card:hover {
+  box-shadow: 0 4px 12px rgba(212,175,55,0.14), 0 2px 6px rgba(0,0,0,0.06);
+  border-color: rgba(212,175,55,0.55);
+  transform: translateY(-2px);
+}
+
+.teacher-avatar {
+  width: 120px;
+  height: 150px;
+  min-width: 120px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #221e15;
+  border: 2px solid rgba(212,175,55,0.30);
+}
+
+.teacher-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teacher-info h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.teacher-title {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.teacher-stats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 0.75rem 0;
+}
+
+.teacher-stat {
+  text-align: left;
+}
+
+.teacher-stat .val {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--accent2);
+}
+
+.teacher-stat .desc {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.teacher-desc {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin-top: 0.5rem;
+}
+
+.teacher-desc strong {
+  color: var(--ink);
+}
+
+/* ========== COURSE PATH ========== */
+.path-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5), inset 0 1px 0 rgba(212,175,55,0.06);
+  transition: all 0.3s ease;
+}
+
+.path-card:hover {
+  box-shadow: 0 4px 12px rgba(212,175,55,0.14), 0 2px 6px rgba(0,0,0,0.06);
+  border-color: rgba(212,175,55,0.55);
+  transform: translateY(-2px);
+}
+
+.path-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.path-body {
+  padding: 2rem;
+}
+
+.path-body h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.path-tag {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.path-tag.blue { background: rgba(212,175,55,0.14); color: var(--accent); }
+.path-tag.orange { background: rgba(240,199,94,0.14); color: var(--accent2); }
+
+.path-levels {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.path-level {
+  text-align: center;
+  padding: 1rem 0.5rem;
+  background: #17140e;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+}
+
+.path-level .lv {
+  font-size: 0.75rem;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.path-level .name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.path-level .salary {
+  font-size: 0.75rem;
+  color: var(--accent2);
+  font-weight: 700;
+}
+
+/* ========== STUDENT TEMPLATE ========== */
+.student-template {
+  background: var(--surface);
+  border: 2px dashed var(--rule);
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.student-template .placeholder-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.3;
+}
+
+.student-template h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.student-template p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.student-card {
+  background: #17140e;
+  border: 1px dashed var(--rule);
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.student-card .avatar-placeholder {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #221e15;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  opacity: 0.3;
+}
+
+.student-card .name-line {
+  height: 14px;
+  width: 60%;
+  background: rgba(212,175,55,0.24);
+  border-radius: 7px;
+  margin: 0 auto 0.5rem;
+}
+
+.student-card .role-line {
+  height: 12px;
+  width: 40%;
+  background: #2b261a;
+  border-radius: 6px;
+  margin: 0 auto 1rem;
+}
+
+.student-card .desc-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+
+.student-card .desc-lines span {
+  height: 8px;
+  width: 80%;
+  background: #2b261a;
+  border-radius: 4px;
+}
+
+.student-card .desc-lines span:last-child {
+  width: 60%;
+}
+
+/* ========== TIMELINE ========== */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--rule);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 3px solid var(--accent);
+}
+
+.timeline-item h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-item p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* ========== 就业薪资展示 ========== */
+.salary-section {
+  padding: 4rem 0 5rem;
+  background: var(--bg);
+}
+
+.salary-section .section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.salary-section .section-tag {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+  background: rgba(212,175,55,0.10);
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.salary-section h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.salary-section h2 .highlight {
+  background: linear-gradient(90deg, #e8c874 0%, #d4af37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.salary-section .section-desc {
+  font-size: 1.1rem;
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.salary-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.salary-stat-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.salary-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(240,199,94,0.14);
+}
+
+.salary-stat-card .stat-num {
+  font-size: 2.2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #e8c874 0%, #d4af37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+}
+
+.salary-stat-card .stat-label {
+  font-size: 0.95rem;
+  color: var(--ink);
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.salary-stat-card .stat-sub {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.salary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
+.salary-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s;
+  cursor: pointer;
+}
+
+.salary-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+  border-color: #e8c874;
+}
+
+.salary-card-img {
+  width: 100%;
+  position: relative;
+  padding-top: 70.76%;
+  overflow: hidden;
+  background: var(--bg2);
+}
+
+.salary-card-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.salary-card:hover .salary-card-img img {
+  transform: scale(1.03);
+}
+
+.salary-card-info {
+  padding: 0.9rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid var(--rule);
+}
+
+.salary-card-name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-align: center;
+}
+
+  display: none;
+}
+
+.salary-note {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed var(--rule);
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.salary-note strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .salary-stats { grid-template-columns: repeat(2, 1fr); }
+  .salary-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .salary-grid { grid-template-columns: repeat(2, 1fr); }
+  .salary-section h2 { font-size: 1.6rem; }
+}
+
+/* ========== CONTACT ========== */
+.contact-section {
+  text-align: center;
+  padding: 4rem 0 5rem;
+}
+
+.contact-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 24px;
+  padding: 3.5rem 3rem;
+  max-width: 1080px;
+  margin: 0 auto;
+  box-shadow: 0 4px 24px rgba(212,175,55,0.10), 0 1px 4px rgba(0,0,0,0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #d4af37 0%, #c9a227 50%, #e8c874 100%);
+}
+
+.contact-card h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+.contact-card h2 .highlight {
+  background: linear-gradient(90deg, #d4af37 0%, #c9a227 50%, #e8c874 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contact-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 1.8rem;
+}
+
+.contact-tags span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--bg2);
+  border: 1px solid var(--rule);
+  padding: 0.5rem 1.2rem;
+  border-radius: 12px;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  color: var(--muted);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.contact-subtitle strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.contact-values {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin-bottom: 2rem;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+}
+
+.contact-value-item {
+  padding: 2rem 1rem;
+  background: var(--bg2);
+  border-right: 1px solid var(--rule);
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.contact-value-item:last-child { border-right: none; }
+
+.contact-value-item:hover {
+  background: #17140e;
+}
+
+.contact-value-item .v-icon {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.contact-value-item .v-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+}
+
+.contact-value-item .v-desc {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.contact-slogan {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 800px) {
+  .contact-values { grid-template-columns: repeat(2, 1fr); }
+  .contact-value-item { border-bottom: 1px solid var(--rule); }
+  .contact-value-item:nth-child(odd) { border-right: 1px solid var(--rule); }
+  .contact-value-item:nth-child(even) { border-right: none; }
+  .contact-value-item:nth-last-child(-n+2) { border-bottom: none; }
+  .contact-card h2 { font-size: 1.8rem; }
+  .contact-card { padding: 2.5rem 1.5rem; }
+}
+
+/* ========== TABLE ========== */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: 12px;
+  border: 1px solid var(--rule);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th {
+  background: #242016;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 700;
+  color: var(--accent);
+  border-bottom: 2px solid rgba(212,175,55,0.30);
+}
+
+td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--muted);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+td strong {
+  color: var(--ink);
+}
+
+/* ========== HIGHLIGHT BOX ========== */
+.highlight-box {
+  background: linear-gradient(135deg, rgba(212,175,55,0.07), rgba(212,175,55,0.04));
+  border: 1px solid rgba(212,175,55,0.30);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.highlight-box h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.highlight-box ul {
+  list-style: none;
+}
+
+.highlight-box ul li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.5rem;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.highlight-box ul li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent2);
+  font-weight: 700;
+}
+
+/* ========== DIVIDER ========== */
+.divider {
+  width: 60px;
+  height: 4px;
+  background: var(--gradient-mix);
+  border-radius: 2px;
+  margin: 1rem 0 2rem;
+}
+
+/* ========== 学生实操环节 ========== */
+.practice-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.practice-item {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5), inset 0 1px 0 rgba(212,175,55,0.06);
+  border: 1px solid var(--rule);
+  transition: all 0.3s ease;
+  aspect-ratio: 4/3;
+}
+
+.practice-item:hover {
+  box-shadow: 0 4px 12px rgba(212,175,55,0.14), 0 2px 6px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
+}
+
+.practice-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.practice-item .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0) 100%);
+  color: #fff;
+  padding: 1.5rem 1rem 0.6rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .practice-gallery { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ========== 学员账号案例 ========== */
+.account-showcase {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.account-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.5), inset 0 1px 0 rgba(212,175,55,0.06);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: stretch;
+}
+
+.account-card:hover {
+  box-shadow: 0 4px 12px rgba(212,175,55,0.14), 0 2px 6px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
+  border-color: rgba(212,175,55,0.55);
+}
+
+.account-card img {
+  width: 110px;
+  min-width: 110px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  background: #17140e;
+  border-right: 1px solid var(--rule);
+}
+
+.account-info {
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.account-info .name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.2rem;
+  line-height: 1.3;
+}
+
+.account-info .tag {
+  font-size: 0.72rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.account-info .stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.account-info .stats span strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .account-showcase { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .account-showcase { grid-template-columns: 1fr; }
+  .account-card img { width: 130px; min-width: 130px; }
+  .account-info .name { font-size: 1rem; }
+  .account-info .tag { font-size: 0.8rem; }
+  .account-info .stats { font-size: 0.85rem; }
+}
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  padding: 3rem 0 2rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.85rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .container { padding: 0 1rem; }
+  .hero-stats { gap: 1.5rem; }
+  .hero-stat .num { font-size: 1.8rem; }
+  .teacher-card { flex-direction: column; }
+  .path-levels { grid-template-columns: repeat(2, 1fr); }
+  .card-grid-2 { grid-template-columns: 1fr; }
+}
+
+@media print {
+  body { background: #fff; color: #f6ecd2; font-size: 14px; }
+  body::before { display: none; }
+  .hero { min-height: auto; padding: 3rem 0; }
+  .hero-bg { opacity: 0.06; }
+  .hero-bg::after { background: linear-gradient(180deg, rgba(22,19,13,0.85) 0%, rgba(22,19,13,0.95) 50%, #fff 100%); }
+  section { padding: 2rem 0; }
+  .card, .teacher-card, .path-card, .salary-card { box-shadow: none; border: 1px solid rgba(212,175,55,0.24); break-inside: avoid; }
+  .salary-card-img img { break-inside: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .highlight-box { background: #17140e; }
+  .contact-card { box-shadow: none; border: 1px solid rgba(212,175,55,0.24); }
+  .contact-badge { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .contact-value-item { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .contact-tags span { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  footer { border-top: 1px solid rgba(212,175,55,0.24); }
+}
+
+/* ========== H5 MOBILE OPTIMIZATION ========== */
+@media (max-width: 768px) {
+  * { -webkit-tap-highlight-color: transparent; }
+  body { font-size: 14px; }
+  .container { padding: 0 16px; }
+
+  /* Hero */
+  .hero { min-height: auto; padding: 60px 0 50px; }
+  .hero h1 { font-size: 1.8rem !important; line-height: 1.3; }
+  .hero .subtitle { font-size: 0.85rem; line-height: 1.7; margin-bottom: 1.5rem; }
+  .hero-badge { font-size: 0.75rem; padding: 0.4rem 1rem; }
+  .hero-stats { gap: 0.8rem; }
+  .hero-stat .num { font-size: 1.3rem; }
+  .hero-stat .label { font-size: 0.7rem; }
+
+  /* Sections */
+  section { padding: 2.5rem 0; }
+  .section-title { font-size: 1.5rem !important; }
+  .section-tag { font-size: 0.8rem; }
+  .section-desc { font-size: 0.85rem; line-height: 1.7; }
+  .divider { width: 40px; height: 3px; }
+
+  /* Card grids */
+  .card-grid-2 { grid-template-columns: 1fr !important; gap: 1rem; }
+  .card-grid { grid-template-columns: 1fr !important; gap: 1rem; }
+  .card { padding: 1.2rem; }
+  .card h3 { font-size: 1rem; }
+  .card p { font-size: 0.85rem; line-height: 1.7; }
+  .card-icon { width: 44px; height: 44px; font-size: 1.2rem; }
+
+  /* Teacher cards */
+  .teacher-card { flex-direction: column !important; padding: 1.2rem; gap: 1rem; }
+  .teacher-avatar { width: 100px !important; height: 125px !important; min-width: 100px !important; margin: 0 auto; }
+  .teacher-info h3 { font-size: 1.1rem; text-align: center; }
+  .teacher-title { font-size: 0.8rem; text-align: center; }
+  .teacher-stats { grid-template-columns: repeat(2, 1fr) !important; gap: 0.5rem; }
+  .teacher-stat { padding: 0.5rem; }
+  .teacher-stat .val { font-size: 0.95rem; }
+  .teacher-stat .desc { font-size: 0.7rem; }
+  .teacher-desc { font-size: 0.82rem; line-height: 1.7; }
+
+  /* Salary showcase */
+  .salary-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 0.7rem; }
+  .salary-card { border-radius: 10px; }
+  .salary-card-info { padding: 0.6rem 0.7rem; }
+  .salary-card-name { font-size: 0.8rem; }
+  .salary-stats { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
+  .salary-stat-card { padding: 1rem; }
+  .salary-stat-card .stat-num { font-size: 1.2rem; }
+  .salary-stat-card .stat-label { font-size: 0.75rem; }
+  .salary-stat-card .stat-sub { font-size: 0.65rem; }
+  .salary-note { font-size: 0.75rem; margin-top: 1.5rem; padding-top: 1rem; }
+
+  /* Career path */
+  .path-card { padding: 1.2rem; }
+  .path-card h3 { font-size: 1rem; }
+  .path-level { padding: 0.8rem; }
+  .path-level .level-title { font-size: 0.9rem; }
+  .path-level .level-desc { font-size: 0.78rem; }
+
+  /* Table */
+  table { font-size: 0.75rem; }
+  th, td { padding: 0.6rem 0.4rem; }
+
+  /* Contact */
+  .contact-card { padding: 1.5rem; }
+  .contact-header h2 { font-size: 1.4rem; text-align: center; }
+  .contact-badge { font-size: 0.8rem; text-align: center; }
+  .contact-value-grid { grid-template-columns: 1fr !important; }
+  .contact-value-item { padding: 0.8rem; }
+  .contact-value-item .v-label { font-size: 0.75rem; }
+  .contact-value-item .v-value { font-size: 0.95rem; }
+  .contact-tags span { font-size: 0.75rem; padding: 0.3rem 0.7rem; }
+
+  /* Footer */
+  footer { padding: 1.5rem 0; font-size: 0.75rem; }
+}
+
+/* ========== FLOATING ACTION BUTTON ========== */
+.floating-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #e8c874 0%, #f0c75e 100%);
+  padding: 12px 20px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  z-index: 999;
+  box-shadow: 0 -4px 20px rgba(240,199,94,0.45);
+  display: none;
+}
+
+.floating-cta .cta-left {
+  color: #fff;
+  flex: 1;
+}
+.floating-cta .cta-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.floating-cta .cta-sub {
+  font-size: 11px;
+  opacity: 0.9;
+}
+.floating-cta .cta-btn {
+  background: #fff;
+  color: #f0c75e;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .floating-cta { display: flex; }
+}
+
+/* ========== TOP NAV ========== */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(22,19,13,0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px 16px;
+  padding-top: calc(10px + env(safe-area-inset-top, 0px));
+  z-index: 998;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(212,175,55,0.24);
+}
+.top-nav .nav-logo {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f6ecd2;
+}
+.top-nav .nav-logo span {
+  color: #e8c874;
+}
+.top-nav .nav-btn {
+  font-size: 12px;
+  background: linear-gradient(135deg, #e8c874, #f0c75e);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .top-nav { display: flex; }
+  body { padding-top: calc(50px + env(safe-area-inset-top, 0px)); }
+}
+
+/* ========== SHARE TIP ========== */
+.share-tip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 9999;
+  display: none;
+  padding: 40px 30px;
+}
+.share-tip.show { display: block; }
+.share-tip img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+.share-tip .tip-text {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.share-tip .arrow {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 60px;
+}
+/* ==== 关键词底纹 ==== */
+.nm-mark {
+  background: linear-gradient(135deg, rgba(240,199,94,0.34), rgba(212,175,55,0.20));
+  padding: 0 .3em;
+  border-radius: 5px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* ========== DARK GOLD THEME ENHANCEMENTS ========== */
+body::before {
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 0%, rgba(212,175,55,0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 30%, rgba(212,175,55,0.05), transparent),
+    radial-gradient(ellipse 50% 30% at 50% 80%, rgba(240,199,94,0.05), transparent);
+}
+.top-nav {
+  background: rgba(12,11,9,0.86);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(212,175,55,0.22);
+}
+.top-nav .nav-logo { color: var(--accent); }
+.top-nav .nav-btn { color: var(--ink); border: 1px solid rgba(212,175,55,0.3); }
+.top-nav .nav-btn:hover { background: rgba(212,175,55,0.14); color: var(--accent); }
+.section-title { color: var(--ink); }
+.card h3, .path-body h3, .teacher-info h3 { color: var(--ink); }
+.teacher-desc strong { color: var(--accent2); }
+.highlight-box { background: linear-gradient(135deg, rgba(212,175,55,0.07), rgba(240,199,94,0.03)); border-color: rgba(212,175,55,0.22); }
+.hero-bg { opacity: 0.20; }
+footer { background: #0a0907; color: var(--muted); }
+/* 教师头像金框，统一精致描边 */
+.teacher-avatar { border: 2px solid rgba(212,175,55,0.45); }
+
+
+.btn-mini { display: none; }
+@media (max-width: 768px) {
+  .btn-full { display: none; }
+  .btn-mini { display: inline; }
+  .nav-btn { padding: 6px 11px; font-size: 0.8rem; }
+}
+/* ============ FRAME UPGRADE / 框架样式升级 ============ */
+:root {
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+  --shadow-1: 0 2px 8px rgba(0,0,0,0.28);
+  --shadow-2: 0 8px 24px rgba(0,0,0,0.36), 0 0 0 1px rgba(212,175,55,0.18);
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --dur-fast: 0.2s;
+  --dur: 0.28s;
+  --nav-h: 54px;
+}
+body { counter-reset: chapter; padding-top: var(--nav-h); }
+section { counter-increment: chapter; scroll-margin-top: var(--nav-h); }
+
+/* --- 吸顶导航（全端显示） --- */
+.top-nav {
+  display: flex !important;
+  box-sizing: border-box;
+  max-width: 100vw;
+  width: 100%;
+  align-items: center;
+  gap: clamp(12px, 3vw, 32px);
+  min-height: var(--nav-h);
+  height: auto;
+  padding: 0 clamp(16px, 4vw, 40px);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.nav-logo { flex: 0 0 auto; text-decoration: none; white-space: nowrap; letter-spacing: .02em; }
+.nav-links { display: flex; align-items: center; gap: clamp(2px, 1.5vw, 10px); margin-left: auto; }
+.nav-links a {
+  position: relative;
+  padding: 8px 10px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  transition: color var(--dur-fast) ease, background-color var(--dur-fast) ease;
+}
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  left: 10px; right: 10px; bottom: 4px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 2px;
+  opacity: 0;
+  transform: scaleX(0.4);
+  transition: opacity var(--dur) ease, transform var(--dur) ease;
+}
+.nav-links a:hover { color: var(--accent2); background: rgba(212,175,55,0.08); }
+.nav-links a.active { color: var(--accent2); }
+.nav-links a.active::after { opacity: 1; transform: scaleX(1); }
+.nav-btn { flex: 0 0 auto; }
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--accent2);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* --- 阅读进度金线 --- */
+.read-progress {
+  position: fixed;
+  top: 0; left: 0;
+  width: 0; height: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  z-index: 1001;
+  transition: width 0.1s linear;
+  pointer-events: none;
+}
+
+/* --- 返回顶部 --- */
+.back-to-top {
+  position: fixed;
+  right: clamp(16px, 4vw, 32px);
+  bottom: clamp(16px, 4vw, 32px);
+  width: 46px; height: 46px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--surface);
+  color: var(--accent2);
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  z-index: 997;
+  opacity: 0;
+  transform: translateY(14px);
+  pointer-events: none;
+  transition: opacity var(--dur) ease, transform var(--dur) ease, background-color var(--dur) ease;
+}
+.back-to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+
+/* --- 内容节奏：明暗交替 + 章节分隔线 + 序号 --- */
+#about, #features, #teachers, #students, #student-accounts, #salary-showcase { background-color: var(--bg2); }
+section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 50%;
+  width: min(82%, 920px);
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgba(212,175,55,0.38), transparent);
+  pointer-events: none;
+}
+.section-tag::before {
+  content: counter(chapter, decimal-leading-zero) " / ";
+  color: var(--accent2);
+  font-weight: 700;
+  margin-right: 2px;
+}
+
+/* --- 微交互（仅 transform / opacity） --- */
+.card, .teacher-card, .path-card, .contact-value-item, .hero-stat {
+  transition: transform var(--dur) ease, box-shadow var(--dur) ease;
+}
+@media (hover: hover) {
+  .card:hover, .teacher-card:hover, .path-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-2);
+    border-color: rgba(212,175,55,0.42);
+  }
+}
+button:active, .nav-btn:active, .back-to-top:active { transform: scale(0.95); }
+.back-to-top.show:active { transform: scale(0.95); }
+.js-ready .reveal { opacity: 0; transform: translateY(18px); }
+.js-ready .reveal.in {
+  opacity: 1; transform: none;
+  transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.22,0.7,0.3,1);
+}
+
+@media (max-width: 768px) {
+  :root { --nav-h: 50px; }
+  .nav-links { display: none; }
+  .nav-btn { padding: 7px 14px; font-size: 0.85rem; white-space: nowrap; }
+  .nav-logo { font-size: 0.9rem; }
+  .top-nav { gap: 8px; padding-left: 16px; padding-right: 16px; justify-content: space-between; }
+  body { padding-top: var(--nav-h); }
+  .section-tag::before { content: counter(chapter, decimal-leading-zero) " / "; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .js-ready .reveal, .js-ready .reveal.in { opacity: 1 !important; transform: none !important; transition: none !important; }
+  .read-progress, .nav-links a::after, .back-to-top, .card, .teacher-card, .path-card { transition-duration: 0.01ms !important; }
+  html { scroll-behavior: auto !important; }
+}
+</style>
+</head>
+<body>
+
+<!-- 顶部导航 -->
+<div class="read-progress" aria-hidden="true"></div>
+<nav class="top-nav" aria-label="页面导航">
+  <a class="nav-logo" href="#top" aria-label="返回页面顶部">博取<span>AI</span>就业实训基地</a>
+  <div class="nav-links">
+    <a href="#about">基地</a>
+    <a href="#modules">课程</a>
+    <a href="#features">特色</a>
+    <a href="#teachers">师资</a>
+    <a href="#students">学员</a>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<div class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <h1>博取AI就业<br>实训基地</h1>
+    <p class="subtitle">专注于实战人才培养，以真项目、真账号、真数据、真变现，打造懂拍摄、精剪辑、善编导、会运营、能驾驭AIGC的复合型人才。在这里，每一位学员都能从零基础成长为独当一面的行业操盘手</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="num">5000+</div>
+        <div class="label">累计培养学员</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num">97%</div>
+        <div class="label">结业就业率</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num">¥10,400+</div>
+        <div class="label">平均就业薪资</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== 基地介绍 ========== -->
+<section id="about">
+  <div class="container">
+    <div class="section-tag">关于我们</div>
+    <h2 class="section-title">基地介绍</h2>
+    <div class="divider"></div>
+    <p class="section-desc">博取AI就业实训基地，2026年2月正式独立创办，前身为多年联合创立积累的优质AIGC实训项目，现已完成品牌升级与独立孵化。立足北京，面向全国商业、个人能力孵化，输送复合型人才。基地汇聚了一线操盘手级师资团队，以"实训+陪跑+孵化"三维一体的教学模式，帮助学员快速完成从零基础到行业操盘手的蜕变。</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon blue">🏢</div>
+        <h3>中心概况</h3>
+        <p>成立于2026年2月，前序联合积淀深厚行业经验。商业定位：实战实训 · 项目陪跑 · 商业孵化 · 资源对接。办公地址位于北京朝阳E9创新园区，周边传媒资源密集，产业氛围浓厚，为学员提供沉浸式实训环境与行业资源直通通道。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon orange">🎯</div>
+        <h3>核心优势</h3>
+        <p>拒绝纸上谈兵，紧贴行业最新玩法。以"真项目、真账号、真数据、真变现"为教学底线——学员入学即接入真实商业项目，从选题策划到账号运营全流程实操，在实训中积累可展示的商业案例作品集，同时对接行业头部企业资源，实现毕业即就业的无缝衔接。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon purple">📍</div>
+        <h3>中心坐标</h3>
+        <p>北京市朝阳区E9区创新工场1号楼5层<br>航空：大兴机场、首都T3航站楼<br>高铁：北京各站均可达<br>地铁：周边配套完善，食宿便利，为外地学员提供一站式生活服务指引</p>
+      </div>
+    </div>
+
+    <div class="highlight-box" style="margin-top: 2rem;">
+      <h4>培养目标</h4>
+      <ul>
+        <li>为行业输送<strong>能拍、会剪、善策划、懂运营、会用AI</strong>的全能型实战人才，覆盖从内容生产到商业变现的完整能力链</li>
+        <li>帮助每一位学员快速入行、高薪就业，或独立创业打造个人IP与商业项目，实现从"学得会"到"赚得到"的闭环</li>
+        <li>每月开设4期，每月每周周一开新班，每期30-40人精品小班教学，试听课两天免住宿费用，确保学员充分了解课程内容后再做决定</li>
+        <li>课程内容每月迭代更新，紧跟平台算法变化与AIGC工具升级，确保学员学到的是当下最新、最有效的实战打法</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 六大核心模块 ========== -->
+<section id="modules">
+  <div class="container">
+    <div class="section-tag">课程体系</div>
+    <h2 class="section-title">三段式课程体系 · 按目标自由组合</h2>
+    <div class="divider"></div>
+    <p class="section-desc">A 基础编导、B AI 编导、C 实战与就业支持三条交付线独立排期，学员按起点、目标与准备程度跨班次衔接。A＋B 共 42 天课程学习量，另加 10 天 C 实战框架，学习记录跟随个人。</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="path-tag blue">A · 基础编导 · 20天</div>
+        <h3>建立独立执行基本功</h3>
+        <p>口播、叙事、商业三轮任务递进，掌握选题、脚本、拍摄、剪辑、发布与直播协作。A13 诊断叙事整合能力，A20 检验基础段独立交付。</p>
+        <ul>
+          <li>口播循环 A01–A06：说清楚一件事</li>
+          <li>叙事循环 A07–A13：用镜头讲清楚一个故事</li>
+          <li>商业循环 A14–A19：围绕需求完成商业任务</li>
+          <li>带走口播 / 故事 / 商业成片与非出镜素材包</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="path-tag orange">B · AI 编导 · 22天</div>
+        <h3>策划工作流 + AI 导演生成</h3>
+        <p>前 15 天组织内容方案与 AI 工作流，后 7 天由任正阳老师主讲导演表达与视听生成。B15 阶段验收，B22 综合成果验收。</p>
+        <ul>
+          <li>工具实战 B01–B06：调研、脚本、剪辑与素材</li>
+          <li>商业连接 B07–B10：方案、投放分层与数据判断</li>
+          <li>综合项目 B11–B15：方案与工作台整合</li>
+          <li>导演生成 B16–B22：提示词、画布、数字人与 AI 短片</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="path-tag blue">C · 实战与就业支持 · 10天</div>
+        <h3>真实项目 + 岗位准备</h3>
+        <p>10 天项目框架连接真实任务与就业准备：入企启动、真实审稿反馈、发布复盘。按企业项目方式分工，按个人角色与贡献验收。</p>
+        <ul>
+          <li>C01–C05 入企启动与带队破冰</li>
+          <li>C03–C07 真实审稿与反馈修改</li>
+          <li>C08–C10 发布、数据与复盘</li>
+          <li>王老师衔接就业辅导与岗位准备</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <h4>五条学习路径，按起点与目标自由组合</h4>
+      <ul>
+        <li>A 基础编导 20 天 · 零基础起步，建立脚本与拍剪基本功</li>
+        <li>B AI 编导 22 天 · 已有拍剪基础，深化策划与 AI 创作</li>
+        <li>A＋B 系统编导 42 天 · 从内容判断到完整创作</li>
+        <li>B＋C AI 就业方向 32 天 · 已有基本功，衔接项目与就业</li>
+        <li>A＋B＋C 系统就业方向 52 天 · 从基础到 AI 再到就业支持</li>
+      </ul>
+    </div>
+
+    <div class="section-tag">六大核心能力模块</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon blue">📷</div>
+        <h3>拍摄指导</h3>
+        <p>手机与专业相机双线教学，涵盖构图布光、运镜技巧、多场景实拍（短视频/宣传片/直播）、航拍与稳定器实操。从设备认知到画面语言，帮助学员建立专业拍摄思维。</p>
+        <ul>
+          <li>掌握手机与专业设备的拍摄逻辑，随时切换场景需求</li>
+          <li>产出高清、稳定、有质感的原生素材，达到平台推荐标准</li>
+          <li>学会用镜头讲故事，让每一帧画面都有信息量和情绪感染力</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-icon orange">🎬</div>
+        <h3>剪辑指导</h3>
+        <p>PR/AE/剪映三大工具专业操作，涵盖节奏把控、转场特效、字幕包装、音频处理、多平台适配剪辑。从粗剪到精剪全流程实操，让学员具备独立产出商业级成片的能力。</p>
+        <ul>
+          <li>独立完成从粗剪到精剪全流程，掌握商业项目交付标准</li>
+          <li>打造爆款短视频与商业级成片，适配抖音、小红书、B站等多平台规格</li>
+          <li>学会用剪辑节奏驱动用户情绪，提升完播率与互动数据</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-icon purple">✍️</div>
+        <h3>编导指导</h3>
+        <p>脚本撰写、选题策划、分镜设计、现场调度、剧情/口播/探店类内容创作、项目统筹。培养学员成为内容的"总导演"，具备从0到1策划并落地完整内容项目的能力。</p>
+        <ul>
+          <li>成为内容"总导演"，掌控从选题到上线的全流程</li>
+          <li>具备从0到1策划、落地完整内容项目的能力</li>
+          <li>掌握爆款选题方法论，学会用数据验证内容方向</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-icon green">📈</div>
+        <h3>AIGC内容运营</h3>
+        <p>抖音/小红书/B站/视频号/公众号等平台规则解读、账号定位、内容矩阵搭建、流量投放策略、数据分析、直播运营、私域转化全链路。帮助学员精通多平台运营逻辑，实现账号从0到1孵化与商业变现。</p>
+        <ul>
+          <li>精通多平台运营逻辑，能根据平台特性制定差异化策略</li>
+          <li>实现账号从0到1孵化、流量增长与商业变现的完整闭环</li>
+          <li>掌握数据分析驱动决策的方法，用数据指导内容迭代与投放优化</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-icon cyan">🤖</div>
+        <h3>AIGC应用</h3>
+        <p>教授AI使用底层逻辑——如何与AI对话、如何给AI下指令，掌握底层逻辑后无论工具如何迭代都能快速上手，不被技术淘汰。核心工具为Codex（需搭配网络环境从GPT渠道下载），教学员根据自身行业、产品和工作习惯搭建专属AI工作流。例如AI编导搭建工作流后，输入需求即可生成脚本，审核通过后自动生成分镜，再调用图生视频工作流生成提示词，导入即梦AI生成动态视频，最后通过后期拼接得到成品内容。这套工作流适配跨境电商、短视频内容生产等所有AI编导相关行业，任何领域均可复用。</p>
+        <ul>
+          <li>掌握AI底层逻辑，精通提示词工程，工具迭代不慌</li>
+          <li>学会搭建专属AI工作流，一人撑起一个小团队的产能</li>
+          <li>覆盖脚本→分镜→提示词→AI视频→后期全流程落地</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="card-icon cyan">🎙️</div>
+        <h3>直播实战</h3>
+        <p>直播全流程实操教学，涵盖直播间搭建、设备调试、话术设计、排品策略、场控节奏、投流玩法、数据复盘。从新人首播到千单爆破，系统掌握直播带货与知识付费直播的核心打法，帮助学员快速具备独立开播与团队协作能力。</p>
+        <ul>
+          <li>掌握直播间从0到1搭建全流程，含设备选型、场景布置与灯光调试</li>
+          <li>学会设计高转化话术与排品策略，提升停留时长与成交转化率</li>
+          <li>掌握直播投流与数据复盘方法，用数据驱动每场直播优化迭代</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 课程特色 ========== -->
+<section id="features">
+  <div class="container">
+    <div class="section-tag">教学体系</div>
+    <h2 class="section-title">新教学体系 · 四大特色</h2>
+    <div class="divider"></div>
+    <p class="section-desc">同一条能力主线，覆盖内容生产、直播协作与跨平台运营三类工作场景；以课堂学习循环推进，用作品集与阶段考核沉淀可验证的成果。</p>
+
+    <div class="card-grid-2">
+      <div class="card">
+        <div class="card-icon blue">🔗</div>
+        <h3>能力主线贯穿全程</h3>
+        <p>理解需求 → 策划内容 → 组织创作 → 协同分发 → 复盘迭代，一条能力主线贯穿课程。同时训练内容生产、直播协作与跨平台运营三类工作场景，AI 用于组织流程、深化创作和辅助复盘。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon orange">🎯</div>
+        <h3>三类工作场景全覆盖</h3>
+        <p>短视频编导把目标转成选题、脚本、镜头与成片；直播策划围绕主播、商品与场景安排流程并模拟执行；跨平台运营区分平台与账号角色，做内容适配、发布排期与数据比较。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon purple">🔄</div>
+        <h3>课堂学习循环</h3>
+        <p>看懂样例 → 跟随示范 → 独立实操 → 反馈修改。从表达、叙事到商业任务逐步加深；主讲老师负责方法、示范与评价，助教带练、归档并反馈共性问题，每一轮都留下可复用成果。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon green">📁</div>
+        <h3>作品集即能力证据</h3>
+        <p>成片与可运行的工作流按模块和本人贡献归档，保留修改前后版本。A13 / A20 / B15 / B22 分阶段检查，依据本人操作、成果质量与修改说明评价；关键任务未达标先补练复评，让每份成果都可验证。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 师资团队 ========== -->
+<section id="teachers">
+  <div class="container">
+    <div class="section-tag">师资力量</div>
+    <h2 class="section-title">流量实战为王 · 全员操盘手</h2>
+    <div class="divider"></div>
+    <p class="section-desc">由资深从业者与一线实战操盘手组成，团队累计操盘全网流量超百亿，涵盖头部MCN机构编导、百万粉丝账号运营负责人、AIGC应用专家、央视级编导、前星巴克/华为等头部品牌操盘手。每位导师均自带真实商业案例与行业资源，教学过程中直接分享一线实战经验与操盘心得，确保学员学到的不是理论，而是经过市场验证的实战打法。</p>
+
+    <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+
+      <!-- 杨校长 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: var(--gradient-1);">
+          <img loading="lazy" decoding="async" src="assets/images/3015e1b7e51e.webp" alt="杨校长">
+        </div>
+        <div class="teacher-info">
+          <h3>杨校长</h3>
+          <div class="teacher-title">实战派流量操盘手 · 博取实训校长</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">100亿+</div>
+              <div class="desc">全网操盘流量</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">1.5亿+</div>
+              <div class="desc">单日曝光峰值</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">3000+</div>
+              <div class="desc">日客资进线</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">1亿+</div>
+              <div class="desc">年营收操盘</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            深谙<strong>"IP+矩阵种草+品牌宣发+直播"</strong>一体化实战打法。横跨6大垂直领域，从同城实体到珠宝私域，全链路打通。<br>
+            <strong>核心理念：</strong>不靠运气起号，只靠系统收割。规模化引流——别人在等风来，我们在流水线上批量制造流量。<br>
+            <strong>2026年愿景：</strong>"因为自己淋过雨，所以愿为你撑起一把伞。"——带出2000+名真正的AI+运营操盘手。
+          </p>
+        </div>
+      </div>
+
+      <!-- 能Sir -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #8b5cf6, #6366f1);">
+          <img loading="lazy" decoding="async" src="assets/images/a033596d35ff.webp" alt="能Sir">
+        </div>
+        <div class="teacher-info">
+          <h3>能Sir</h3>
+          <div class="teacher-title">资深短视频IP孵化操盘手 · 资深媒体人 · 内容创作者</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">17年</div>
+              <div class="desc">互联网+实战经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">破千万</div>
+              <div class="desc">全网操盘IP累计粉丝</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">8亿+</div>
+              <div class="desc">全网内容累计播放量</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            持证<strong>高级互联网营销师、全媒体运营师</strong>。国内现象级文化出海虚拟人IP「天妤TianYu」核心内容操盘手。<br>
+            精通账号从0到1全案孵化，擅长垂类流量制造与AIGC规模化内容生产。深耕快消、文旅、教育、金融、汽车、地产、消费电子等多赛道。<br>
+            曾为<strong>华为、赛力斯、LG电子、同仁堂</strong>、天津泰达航母主题公园等知名品牌提供短视频全案运营服务。<br>
+            <strong>金句：</strong>"服务华为、同仁堂的打法，全部教给你们。"
+          </p>
+        </div>
+      </div>
+
+      <!-- 顺子 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">
+          <img loading="lazy" decoding="async" src="assets/images/e08c0f2e7a17.webp" alt="顺子">
+        </div>
+        <div class="teacher-info">
+          <h3>顺子</h3>
+          <div class="teacher-title">博取教育IP操盘手 · 高途教育集团内容运营负责人 · 北京比特穿梭文化创始人</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">5000w-1亿</div>
+              <div class="desc">月GMV操盘</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">1000万+</div>
+              <div class="desc">全网打造IP粉丝</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">1亿+</div>
+              <div class="desc">单条播放量</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">100个</div>
+              <div class="desc">IP操盘账号</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            对接各大国企央企视频制作，涵盖企业宣传片、出海视频、纪录片、访谈节目。GRACEMAY五月珍珠品牌营销视频品牌总监。<br>
+            <strong>星巴克咖啡电商视频品牌操盘手</strong>，管理20人团队，服务星巴克即饮、家享、蒙牛、脉动等品牌。搭建品牌矩阵，覆盖直播、达人商务、短视频全链路。<br>
+            <strong>金句：</strong>"商业闭环，才是账号的终点。"
+          </p>
+        </div>
+      </div>
+
+      <!-- 阿文 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #22c55e, #16a34a);">
+          <img loading="lazy" decoding="async" src="assets/images/232e74bedbaa.webp" alt="阿文">
+        </div>
+        <div class="teacher-info">
+          <h3>阿文</h3>
+          <div class="teacher-title">全域爆款账号操盘手 · 商业IP全链路战略顾问</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">10亿+</div>
+              <div class="desc">全网累计流量</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">1亿+</div>
+              <div class="desc">单日最高曝光</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">1000+</div>
+              <div class="desc">单日精准客资</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">亿级</div>
+              <div class="desc">年营收规模</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            核心深耕领域：全域自然流矩阵获客、规模化精准引流、商业IP打造。跨平台流量协同，构建可持续获客引擎。<br>
+            从泛流量到高转化客资的系统方法论，人格化品牌资产的长效价值构建。涵盖同城实体、珠宝私域、家庭教育、同城培训四大赛道。<br>
+            <strong>金句：</strong>"利他，是流量的终极杠杆。"
+          </p>
+        </div>
+      </div>
+
+      <!-- 杨阳 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+          <img loading="lazy" decoding="async" src="assets/images/de7da1929ad7.webp" alt="杨阳">
+        </div>
+        <div class="teacher-info">
+          <h3>杨阳</h3>
+          <div class="teacher-title">亿级流量IP全案操盘手</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">10年</div>
+              <div class="desc">顶级媒体经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">破亿</div>
+              <div class="desc">年度操盘GMV</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">4.6亿</div>
+              <div class="desc">全网曝光</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">2000+</div>
+              <div class="desc">直播间峰值在线</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            顶级媒体底蕴：《警察特训营》国民级综艺、《老兵你好》《名人堂》《跑男》等头部综艺制作经验。<br>
+            亿级操盘案例：《北大花花》年度操盘GMV破亿；《东方爱婴》全网曝光4.6亿。<br>
+            <strong>金句：</strong>"内容不行，投流也救不了。"
+          </p>
+        </div>
+      </div>
+
+      <!-- 赵赵 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #6366f1, #4f46e5);">
+          <img loading="lazy" decoding="async" src="assets/images/1448afae0c25.webp" alt="赵赵">
+        </div>
+        <div class="teacher-info">
+          <h3>赵赵</h3>
+          <div class="teacher-title">创始人IP编导 · 中央戏剧学院编导专业</div>
+          <p class="teacher-desc">
+            中央戏剧学院编导专业出身，深耕创始人IP账号内容创作与编导指导。代表作：谭大千谈品类等创始人IP账号。<br>
+            擅长从专业编导视角出发，为创始人打造有深度、有质感的内容体系，以专业戏剧叙事手法赋能商业IP。教学风格注重"叙事逻辑"与"商业表达"的融合，帮助学员理解内容背后的情感驱动与用户心理。<br>
+            在博取负责编导方向核心课程，指导学员从选题到成片的全流程创作实战。<br>
+            <strong>金句：</strong>"好故事，比好镜头更值钱。"
+          </p>
+        </div>
+      </div>
+
+      <!-- 鹏鹏 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #14b8a6, #0d9488);">
+          <img loading="lazy" decoding="async" src="assets/images/9aa3f0118394.webp" alt="鹏鹏">
+        </div>
+        <div class="teacher-info">
+          <h3>鹏鹏</h3>
+          <div class="teacher-title">国内资深内容运营与视频编导 · 广电编导+实战经验</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">7年</div>
+              <div class="desc">广电+实战经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">5000w+</div>
+              <div class="desc">单条最高播放</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            擅长情感类、剧情类账号创作，单条视频全网最高播放5000w+。平台签约编剧，起点中文网签约作家，参与多部电影编剧工作。<br>
+            <strong>代表项目：</strong>《地球最后的夜晚》（中国文艺电影票房第一）、《风暴》（引进海外悬疑片票房第一）、《无名之辈》舞剧宣发（舞剧行业盈利TOP1）。<br>
+            <strong>编剧作品：</strong>短剧《贩卖法术的杂货铺》《心动还请告诉我》、网大《大蛇》《刑警札记》等。<br>
+            <strong>金句：</strong>"内容不落地，再美也是废片。"
+          </p>
+        </div>
+      </div>
+
+      <!-- 崔征 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+          <img loading="lazy" decoding="async" src="assets/images/993ea93a46b7.webp" alt="崔征">
+        </div>
+        <div class="teacher-info">
+          <h3>崔征</h3>
+          <div class="teacher-title">AI编导实战讲师 · 央视编导出身</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">11年</div>
+              <div class="desc">传媒行业经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">9个</div>
+              <div class="desc">垂类IP操盘</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">95%+</div>
+              <div class="desc">学员就业率</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">百万级</div>
+              <div class="desc">粉丝全链路运营</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            <strong>央视编导出身：</strong>曾任CCTV-10《地理·中国》、北京电视台《才高八斗》、甘肃卫视《寻宝记》栏目编导，4年专业内容创作功底，深谙视听语言与内容底层逻辑。<br>
+            <strong>百万级IP操盘手：</strong>4年IP操盘与团队管理经验，从0到1成功孵化汽车账号半年涨粉26万、家居账号8个月涨粉21万，精通选题策划、拍摄制作、账号运营、直播操盘、付费投流全流程，跑通「爆款内容+直播电商」双变现模式。<br>
+            <strong>就业教学硕果：</strong>3年职业教学经验，累计带教9个班级，学员就业率稳定95%以上。毕业学员就职于网易、东方甄选、交个朋友、无忧传媒、新东方等上市公司与头部MCN机构，多名学员在校期间即产出20多条百万播放爆款视频。<br>
+            <strong>AI深度融合教学：</strong>覆盖扣子、Workbuddy、Deepseek、豆包、即梦AI、小云雀等工具，落地AI内容生产工作流与AI视频制作教学。
+          </p>
+        </div>
+      </div>
+
+            <!-- 孙嘉乐 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #e11d48, #be123c);">
+          <img loading="lazy" decoding="async" src="assets/images/40e68ef8591b.webp" alt="孙嘉乐">
+        </div>
+        <div class="teacher-info">
+          <h3>孙嘉乐</h3>
+          <div class="teacher-title">电影摄影师 · 剪辑师 · 广告导演</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">15年</div>
+              <div class="desc">影视媒体制作经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">5大行业</div>
+              <div class="desc">广告片案例覆盖</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">头部品牌</div>
+              <div class="desc">媒体制作服务背书</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">全链路</div>
+              <div class="desc">策划到商业变现</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            <strong>影视全流程专家：</strong>电影摄影师、剪辑师、广告导演，15年影视媒体制作经验，曾为国内多家企业、机构制作广告、宣传片及商业策划案，覆盖金融、地产、汽车、餐饮、娱乐多个行业。<br>
+            <strong>商业内容运营：</strong>擅长创意策划、现场执行、后期制作及商业变现内容运营，兼具艺术创作与商业落地双重能力。<br>
+            <strong>头部机构背书：</strong>曾为北方华创、兴业银行、宝马中国、三星电子、中国书画协会等机构提供媒体制作及商业运营服务。
+          </p>
+        </div>
+      </div>
+
+      <!-- 正阳 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #10b981, #059669);">
+          <img loading="lazy" decoding="async" src="assets/images/c5602e1071e4.webp" alt="正阳">
+        </div>
+        <div class="teacher-info">
+          <h3>正阳</h3>
+          <div class="teacher-title">AIGC金牌讲师 · UI/平面设计实战讲师 · 视频剪辑资深讲师</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">多年</div>
+              <div class="desc">设计实战经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">多所高校</div>
+              <div class="desc">外聘讲师</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">全链路</div>
+              <div class="desc">UI/平面/剪辑</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">就业导向</div>
+              <div class="desc">作品集辅导</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            <strong>资深设计背景：</strong>曾任职于国家汉语国际推广领导小组办公室、学科网，从事平面、UI及网页设计工作，具备扎实的商业项目实战经验。<br>
+            <strong>丰富教学经历：</strong>先后在达内教育、北京财经专修学院、北大青鸟担任UI、视频剪辑专职讲师，同时兼任首都师范大学科德学院艺术设计学院外聘专业讲师。<br>
+            <strong>全栈软件能力：</strong>精通PS、AI、PR、AE、C4D等主流设计后期软件，擅长UI全链路课程、平面视觉设计、视频剪辑与电商特效课程研发，主导搭建标准化教学体系。<br>
+            <strong>就业辅导专长：</strong>专注学员就业能力培养，善于辅导就业作品集、简历与面试，因材施教，针对不同学员特点定制教学方案，兼顾理论基础与商业实战。
+          </p>
+        </div>
+      </div>
+
+<!-- 熙麟 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #14b8a6, #0d9488);">
+          <img loading="lazy" decoding="async" src="assets/images/db098a821117.webp" alt="熙麟">
+        </div>
+        <div class="teacher-info">
+          <h3>熙麟</h3>
+          <div class="teacher-title">手艺变现导师 · 6年一线实操+直播变现经验</div>
+          <p class="teacher-desc">
+            6年一线实操经验，深耕<strong>家具维修、手工打金</strong>两大热门手艺赛道，具备抖音直播主播经验，懂内容、懂展示、懂线上引流与获客。<br>
+            <strong>家具维修：</strong>擅长家具破损修复、补漆翻新，从板材评估到颜色调配、表面处理全流程实操，让旧家具焕然一新。<br>
+            <strong>手工打金：</strong>精通金银手工打造、旧金改款、首饰定制，从设计构思到成品交付，每一件作品都兼具工艺精度与商业价值。<br>
+            <strong>教学特色：</strong>实战为主、步骤清晰、零基础可学。既教技术，也教接单与直播变现——学员学完不仅会做，更能靠手艺赚钱。
+          </p>
+        </div>
+      </div>
+
+      <!-- 樊湖 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #6366f1, #4f46e5);">
+          <img loading="lazy" decoding="async" src="assets/images/5c2e89f13ec5.webp" alt="樊湖">
+        </div>
+        <div class="teacher-info">
+          <h3>樊湖</h3>
+          <div class="teacher-title">复合型操盘手 · 5年内容创作+IP打造实战经验</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">5年</div>
+              <div class="desc">内容创作经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">3年</div>
+              <div class="desc">信息流编导</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">2年</div>
+              <div class="desc">抖音探店</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">全流程</div>
+              <div class="desc">选题到转化</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            复合型从业者，5年内容创作实战经验，其中3年<strong>信息流编导</strong>、2年<strong>抖音探店</strong>经验，具备成熟的IP人设打造能力。<br>
+            <strong>深耕领域：</strong>大健康、本地生活及电商三大核心赛道，深刻理解不同品类的内容逻辑与用户心智。<br>
+            <strong>全流程能力：</strong>精通从选题策划、脚本创作、拍摄剪辑到投放优化、数据分析的完整链路，能独立操盘账号从0到1起号。<br>
+            <strong>擅长方向：</strong>通过内容打造差异化IP、精准获取流量，并结合数据持续优化内容策略，实现内容传播与商业转化的双重增长。
+          </p>
+        </div>
+      </div>
+
+      <!-- 博阳 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #ec4899, #db2777);">
+          <img loading="lazy" decoding="async" src="assets/images/3bad738a77c7.webp" alt="博阳">
+        </div>
+        <div class="teacher-info">
+          <h3>博阳</h3>
+          <div class="teacher-title">小红书电商+IP内容操盘手 · 女装赛道爆款打造专家</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">3年</div>
+              <div class="desc">内容创作经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">1年+</div>
+              <div class="desc">信息流剪辑</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">3万+</div>
+              <div class="desc">单条爆款成交</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">全链路</div>
+              <div class="desc">内容到商务</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            复合型从业者，3年内容创作实战经验，深耕<strong>女装、小红书电商</strong>领域，具备从内容生产到商业变现的全链路能力。<br>
+            <strong>全流程能力：</strong>熟悉选题策划、脚本撰写、拍摄执行、后期剪辑、平面设计、主播中控、商务对接完整链路，一人能顶一个小团队。<br>
+            <strong>爆款打造：</strong>擅长打造小红书爆款内容，单条爆款笔记实现3万+成交，深谙小红书用户心智与流量密码。<br>
+            <strong>信息流+IP双栖：</strong>1年信息流剪辑经验，月产出十余条信息流爆款；同时具备成熟的IP人设内容打造能力，跨平台产出大量IP爆款视频。
+          </p>
+        </div>
+      </div>
+
+      <!-- 静文 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #0ea5e9, #0284c7);">
+          <img loading="lazy" decoding="async" src="assets/images/78c8fea2bfa7.webp" alt="静文">
+        </div>
+        <div class="teacher-info">
+          <h3>静文</h3>
+          <div class="teacher-title">小红书+视频号双赛道操盘手 · 教育行业全域实战专家</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">多年</div>
+              <div class="desc">全域实战经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">双赛道</div>
+              <div class="desc">小红书+视频号</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">万级</div>
+              <div class="desc">单条成交转化</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">全流程</div>
+              <div class="desc">内容到变现</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            深耕<strong>小红书、视频号</strong>双大赛道，长期专注教育行业发展，覆盖幼儿教育、艺考培训、成人教育等多个细分领域，拥有多年全域实战运营经验，兼具内容创作、账号运营、商务落地与流量转化综合能力。<br>
+            <strong>全流程内容能力：</strong>熟练掌握全流程内容落地工作，可独立完成选题策划、脚本创作、实景拍摄、后期剪辑及平面设计等全套内容制作工作，一人全能、全链路交付。<br>
+            <strong>平台流量精通：</strong>深度熟知小红书、视频号平台流量规则与用户画像，擅长爆款内容孵化与IP人设精细化打造，实战成果优异。<br>
+            <strong>爆款变现实力：</strong>打造多条平台爆款内容，单条内容实现万级成交转化，具备出色的自然流量撬动与精准引流变现能力。
+          </p>
+        </div>
+      </div>
+
+      <!-- 小陈 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #f97316, #ea580c);">
+          <img loading="lazy" decoding="async" src="assets/images/50c9a930dc92.webp" alt="小陈">
+        </div>
+        <div class="teacher-info">
+          <h3>小陈</h3>
+          <div class="teacher-title">短视频编导实战派 · 内容创作与流量增长专家</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">多年</div>
+              <div class="desc">一线编导经验</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">全平台</div>
+              <div class="desc">抖音/快手/小红书</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">千万级</div>
+              <div class="desc">累计播放量</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">实战型</div>
+              <div class="desc">从0到1起号</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            多年一线短视频编导实战经验，深耕<strong>抖音、快手、小红书</strong>全平台内容生态，擅长从0到1打造账号与爆款内容。<br>
+            <strong>内容创作全能：</strong>精通选题策划、脚本撰写、拍摄指导、后期剪辑全流程，能独立完成从创意到成片的完整交付，对画面节奏和用户情绪把控精准。<br>
+            <strong>流量增长操盘：</strong>深谙各平台流量算法与推荐机制，擅长通过数据复盘优化内容方向，实现账号持续增长，累计打造千万级播放量爆款内容。<br>
+            <strong>实战教学风格：</strong>教学注重实操落地，善于将复杂的创作逻辑拆解为可复制的方法论，帮助零基础学员快速上手，独立产出优质内容。
+          </p>
+        </div>
+      </div>
+<!-- 水水 -->
+      <div class="teacher-card">
+        <div class="teacher-avatar" style="background: linear-gradient(135deg, #a855f7, #7c3aed);">
+          <img loading="lazy" decoding="async" src="assets/images/1cc500d59525.webp">
+        </div>
+        <div class="teacher-info">
+          <h3>水水</h3>
+          <div class="teacher-title">短视频全栈实操导师 · 抖音/小红书运营与内容制作全能手</div>
+          <div class="teacher-stats">
+            <div class="teacher-stat">
+              <div class="val">全栈</div>
+              <div class="desc">短视频实操能力</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">5款+</div>
+              <div class="desc">后期软件精通</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">全流程</div>
+              <div class="desc">拍摄剪辑独立交付</div>
+            </div>
+            <div class="teacher-stat">
+              <div class="val">数据驱动</div>
+              <div class="desc">内容迭代优化</div>
+            </div>
+          </div>
+          <p class="teacher-desc">
+            具备<strong>短视频全栈实操能力</strong>，熟悉抖音、小红书等主流短视频平台的运营逻辑，能够独立完成账号人设搭建、选题策划、脚本文案撰写，吃透平台规则，针对性打造高流量爆款内容。<br>
+            <strong>拍摄剪辑全流程：</strong>可独立负责拍摄剪辑全流程，熟练运用<strong>剪映、PR、PS、AE、达芬奇</strong>完成镜头调度、达人引导、视频调色、特效包装以及封面设计。<br>
+            <strong>数据复盘能力：</strong>擅长平台后台数据复盘，拆解完播率、互动率、转化率等核心指标，依据数据迭代优化内容方向。<br>
+            <strong>商单与项目管理：</strong>可承接商单内容定制，处理商务对接、团队协同、项目进度把控以及内容合规审核工作。熟练使用Word、Excel、PowerPoint办公软件，能够完成内容产出、数据整理与项目汇报工作。
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 职业发展路径 ========== -->
+<section id="career">
+  <div class="container">
+    <div class="section-tag">职业规划</div>
+    <h2 class="section-title">两大职业发展路径</h2>
+    <div class="divider"></div>
+    <p class="section-desc">"编导核心能力 + AIGC效率赋能"完整教学体系，精准匹配市场需求，覆盖就业与企业经营两类人群。无论你是零基础转行、应届生求职，还是企业主想自建团队，都能找到适合的成长路径。</p>
+
+    <div class="card-grid-2">
+      <!-- AI编导 -->
+      <div class="path-card">
+        <div class="path-body">
+          <span class="path-tag blue">AI编导方向</span>
+          <h3>AI编导 · 3-5年晋升路径</h3>
+          <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem;">使用AI工具完成视频内容的选题策划、脚本撰写、素材生成、剪辑后期全流程，一人拼起一个小团队的产出能力。适合有创意思维、喜欢内容创作的学员，毕业后可进入MCN机构、品牌方、影视制作公司等，担任AI编导、AI内容策划师等核心岗位。当前行业AI编导人才极度稀缺，掌握AIGC全流程能力的内容创作者供不应求。</p>
+
+          <div class="path-levels">
+            <div class="path-level">
+              <div class="lv">第1年</div>
+              <div class="name">AI内容执行</div>
+              <div class="salary">8-15K</div>
+            </div>
+            <div class="path-level">
+              <div class="lv">第2-3年</div>
+              <div class="name">AI编导/策划师</div>
+              <div class="salary">18-35K</div>
+            </div>
+            <div class="path-level">
+              <div class="lv">第4-5年</div>
+              <div class="name">资深AI导演</div>
+              <div class="salary">40-60K×16薪</div>
+            </div>
+            <div class="path-level">
+              <div class="lv">天花板</div>
+              <div class="name">内容工作室创始人</div>
+              <div class="salary">年薪80万+</div>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>能力层级</th><th>核心能力</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>L1 基础执行</strong></td><td>熟练AI工具、完成基础视频生成、掌握剪辑配乐基本功</td></tr>
+                <tr><td><strong>L2 策划创作</strong></td><td>选题挖掘与脚本撰写、多工具协同与流程优化、内容创意与故事叙事</td></tr>
+                <tr><td><strong>L3 全链路掌控</strong></td><td>独立产出完整内容、搭建AI生产工作流、分镜设计与拍摄规划</td></tr>
+                <tr><td><strong>L4 团队管理</strong></td><td>团队调度与项目管理、商业落地与客户对接、质量管控与标准建立</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- AIGC内容运营 -->
+      <div class="path-card">
+        <div class="path-body">
+          <span class="path-tag orange">AIGC内容运营方向</span>
+          <h3>AIGC内容运营 · 3-5年晋升路径</h3>
+          <p style="color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem;">使用AIGC工具完成文案生成、内容分发、数据分析、用户增长、账号运营全流程，一人多岗位复合产出。适合擅长数据思维、喜欢运营策略的学员，毕业后可进入电商平台、品牌方、互联网公司等，担任AIGC内容运营、全域操盘手等核心岗位。电商、传媒、教培行业对AIGC运营人才常年扩招，是当前AIGC领域需求量最大、增长最快的岗位方向。</p>
+
+          <div class="path-levels">
+            <div class="path-level">
+              <div class="lv">第1年</div>
+              <div class="name">AIGC内容专员</div>
+              <div class="salary">6-18K</div>
+            </div>
+            <div class="path-level">
+              <div class="lv">第2-3年</div>
+              <div class="name">内容运营主管</div>
+              <div class="salary">15-25K</div>
+            </div>
+            <div class="path-level">
+              <div class="lv">第4-5年</div>
+              <div class="name">全域操盘手</div>
+              <div class="salary">30-55K×14薪</div>
+            </div>
+            <div class="path-level">
+              <div class="lv">天花板</div>
+              <div class="name">数字化负责人</div>
+              <div class="salary">年薪50万+</div>
+            </div>
+          </div>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>能力层级</th><th>核心能力</th></tr>
+              </thead>
+              <tbody>
+                <tr><td><strong>L1 内容生产</strong></td><td>熟练AIGC商用工具、文案生成与内容策划、图文短视频制作、零代码入门上岗</td></tr>
+                <tr><td><strong>L2 账号运营</strong></td><td>账号定位与增长策略、全域内容分发、用户画像与精准运营、数据分析与优化</td></tr>
+                <tr><td><strong>L3 数据驱动</strong></td><td>内容ROI分析与优化、A/B测试与增长实验、用户增长与社群运营、全域AI内容操盘</td></tr>
+                <tr><td><strong>L4 团队管理</strong></td><td>部门主管、企业数字化负责人、跨部门协作与沟通、团队培养与成本控制</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 薪资对比表 -->
+    <div class="table-wrap" style="margin-top: 2rem;">
+      <table>
+        <thead>
+          <tr>
+            <th>岗位方向</th>
+            <th>入门级</th>
+            <th>核心岗</th>
+            <th>头部资深</th>
+            <th>行业趋势</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>AI编导</strong></td>
+            <td>8-15K</td>
+            <td>18-35K</td>
+            <td>40-60K×16薪</td>
+            <td>六边形AI导演极度稀缺</td>
+          </tr>
+          <tr>
+            <td><strong>AIGC内容运营</strong></td>
+            <td>6-18K</td>
+            <td>15-25K</td>
+            <td>30-55K×14薪</td>
+            <td>电商、传媒、教培常年扩招</td>
+          </tr>
+          <tr>
+            <td><strong>AI内容策划</strong></td>
+            <td>8-15K</td>
+            <td>15-25K</td>
+            <td>25-40K</td>
+            <td>全域AI内容操盘手方向</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 0.5rem;">
+      数据来源：科锐国际《2026人才市场洞察及薪酬指南》及博取教育内部数据 · AI岗位平均月薪较新经济行业高约26%<br>薪资水平受城市、经验、行业等因素影响，以上为行业参考区间，博取学员入职薪资以实际就业情况为准
+    </p>
+    <div style="margin-top: 1.5rem; padding: 1.2rem 1.5rem; background: var(--bg2); border-radius: 12px; border: 1px solid var(--rule);">
+      <div style="font-weight: 600; color: var(--ink); margin-bottom: 0.6rem; font-size: 0.95rem;">🎯 以AI编导为核心方向，可延伸任职岗位包括：</div>
+      <div style="color: var(--muted); font-size: 0.88rem; line-height: 1.8;">
+        AI短视频编导 · 短视频内容策划 · 口播文案 · AIGC素材制作师 · AI视频生成工具操作员 · 数字人视频制作员 · AI分镜预演助理 · MCN内容制作助理 · 电商与本地生活内容运营 · 剪辑统筹 · 自媒体创作者 · AIGC培训助教与初级讲师
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 就业保障 ========== -->
+<section id="service">
+  <div class="container">
+    <div class="section-tag">就业保障</div>
+    <h2 class="section-title">就业服务与保障体系</h2>
+    <div class="divider"></div>
+
+    <div class="highlight-box">
+      <h4>核心承诺</h4>
+      <ul>
+        <li>签订《就业服务协议》，可为学员对接北京及全国企业、MCN机构、电商公司、品牌方等合作资源，协议化保障学员就业权益</li>
+        <li>助力每一位学员在编导、剪辑、运营、直播中控等核心岗位赋能，匹配个人特长与岗位需求</li>
+        <li>提供六个月的免费陪跑服务，持续跟踪学员职业发展，帮助解决入职后实际工作中遇到的问题</li>
+        <li>项目结束后未实现就业，可享受免服务费的重新项目保障，不放弃任何一位学员</li>
+      </ul>
+    </div>
+
+    <div class="card-grid" style="margin-top: 2rem;">
+      <div class="card">
+        <div class="card-icon blue">📋</div>
+        <h3>就业指导服务期</h3>
+        <p>项目结束后启动就业指导服务期。15日内BOSS直聘简历投递不低于300份，面试次数不低于50家。就业指导老师全程跟踪辅导，从简历优化、作品集包装到面试话术一对一指导，帮助学员快速通过面试。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon orange">🤝</div>
+        <h3>资源对接</h3>
+        <p>对接北京及全国企业、MCN机构、电商公司、品牌方等合作资源。博取导师团队自带行业人脉，可直达企业用人部门推荐，提供面试机会对接与针对性面试指导，大幅缩短求职周期。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon green">🔄</div>
+        <h3>项目保障</h3>
+        <p>严格遵守规定并积极配合的学员，在就业指导服务期内未实现就业，可享受免服务费的重新项目保障。已累计帮助数百名学员通过二次辅导成功就业，保障机制成熟可靠。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon purple">🚀</div>
+        <h3>创业陪跑</h3>
+        <p>自主创业学员，支付全部服务费用后，赠送6个月自主创业陪跑服务，以项目结束后时间计算起始日期。从账号搭建、选题策划到商业变现全程指导，帮助创业学员少走弯路。</p>
+      </div>
+    </div>
+
+    <!-- 入职后发展建议 -->
+    <h3 style="margin-top: 3rem; margin-bottom: 1.5rem; font-size: 1.3rem;">入职后关键发展建议</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h4>快速实操积累</h4>
+        <p>入职前3个月完成至少2个可展示作品，建立个人作品集。作品集是求职者最有力的"简历"，好的作品可以直接敲开面试大门</p>
+      </div>
+      <div class="timeline-item">
+        <h4>AI工具追踪</h4>
+        <p>每周关注AI工具更新，尝试新工具并融入工作流。AIGC领域迭代极快，保持工具敏感度是保持竞争力的关键</p>
+      </div>
+      <div class="timeline-item">
+        <h4>数据复盘习惯</h4>
+        <p>每周复盘内容数据，找到优化点并迭代，用数据证明价值。养成数据思维的从业者，在团队中更容易脱颖而出</p>
+      </div>
+      <div class="timeline-item">
+        <h4>跨岗位学习</h4>
+        <p>编导学运营逻辑，运营学剪辑基础，打造复合竞争力。复合型人才在企业内部晋升速度通常是单一岗位的2-3倍</p>
+      </div>
+      <div class="timeline-item">
+        <h4>行业资源积累</h4>
+        <p>加入行业社群、参加线下活动，建立人脉和信息渠道。行业高度依赖信息差和资源圈，越早建立行业人脉越有优势</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 学员成果 ========== -->
+<section id="students">
+  <div class="container">
+    <div class="section-tag">学员成果</div>
+    <h2 class="section-title">从博取走向行业</h2>
+    <div class="divider"></div>
+    <p class="section-desc">5000+名学员的选择与信赖，遍布MCN机构、品牌方、电商平台、影视制作公司等核心赛道。从零基础转行到行业操盘手，从职场新人到创业老板，博取学员正在各条赛道上验证所学、创造价值。</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon blue">🎯</div>
+        <h3>就业方向多元</h3>
+        <p>学员毕业后覆盖短视频编导、AIGC内容策划、全域运营操盘、直播运营、品牌IP孵化等核心岗位，活跃于抖音、小红书、B站、视频号等主流平台。无论是MCN机构内容岗、品牌方营销岗，还是电商直播运营岗，博取学员均能快速胜任。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon orange">📈</div>
+        <h3>薪资增长显著</h3>
+        <p>结业学员平均就业薪资达¥10,400+，优秀学员入职即可达到15K-25K月薪水平。6个月陪跑期内，超97%学员实现就业。部分学员入职半年内因表现突出获得加薪晋升，薪资增幅显著高于行业平均水平。</p>
+      </div>
+      <div class="card">
+        <div class="card-icon purple">🚀</div>
+        <h3>创业孵化支持</h3>
+        <p>自主创业学员可享受6个月免费陪跑服务，从账号搭建到商业变现全程指导。已孵化多个百万粉丝账号与千万级GMV直播项目，创业学员覆盖同城实体、珠宝私域、教育培训、电商直播等多个领域。</p>
+      </div>
+    </div>
+
+    <div class="highlight-box" style="margin-top: 2rem;">
+      <h4>学员核心收获</h4>
+      <ul>
+        <li>掌握从0到1打造账号的全流程能力，具备独立产出商业级内容的实战经验，入职即可独立承担项目</li>
+        <li>积累真实项目案例与作品集，可直接用于面试展示与职业发展，作品集即简历，实力说话</li>
+        <li>建立行业人脉与资源渠道，入职即有圈内资源对接支持，博取导师团队持续提供行业信息与机会推荐</li>
+        <li>获得持续6个月的免费陪跑服务，就业后仍可获取行业最新玩法与资源更新，确保技能不掉队</li>
+        <li>加入博取校友社群，5000+校友遍布行业各赛道，长期共享资源、项目合作与内推机会</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 学生实操环节 ========== -->
+<section id="practice" class="section">
+  <div class="container">
+    <div class="section-tag">实操现场</div>
+    <h2 class="section-title">真项目 · 真实操 · 真成长</h2>
+    <p class="section-desc">博取实训基地采用"讲练结合、以练为主"的教学模式，学员入学即上手实操。从课堂软件操作到现场拍摄布光，从账号运营到视频制作，每个环节都有导师全程指导，确保学员在实践中掌握真本事。</p>
+
+    <div class="practice-gallery">
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/59f05343c3f7.webp" alt="课堂实操">
+        <div class="label">课堂实操 · 导师巡场指导</div>
+      </div>
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/afe0754c8d40.webp" alt="课堂实操">
+        <div class="label">课堂实操 · 学员独立练习</div>
+      </div>
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/0b10d800def1.webp" alt="设计课程">
+        <div class="label">设计课程 · 产品精修实操</div>
+      </div>
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/f103e7e24215.webp" alt="运营课程">
+        <div class="label">运营课程 · 项目协作实操</div>
+      </div>
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/d982b558eb9a.webp" alt="课堂实操">
+        <div class="label">课堂实操 · 多屏联动教学</div>
+      </div>
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/48ff74ac1835.webp" alt="拍摄实操">
+        <div class="label">拍摄实操 · 现场布光与拍摄</div>
+      </div>
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/88da4ba266f8.webp" alt="灯光实操">
+        <div class="label">灯光实操 · 专业柔光箱布光</div>
+      </div>
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/0e866f6a3965.webp" alt="拍摄实操">
+        <div class="label">拍摄实操 · 影棚人像实拍</div>
+      </div>
+      <div class="practice-item">
+        <img loading="lazy" decoding="async" src="assets/images/f6aaf6247c58.webp" alt="手机拍摄">
+        <div class="label">手机拍摄 · 多机位协作实战</div>
+      </div>
+    </div>
+
+    <div class="highlight-box" style="margin-top: 2.5rem;">
+      <h4>实操教学特色</h4>
+      <ul>
+        <li><strong>讲练结合</strong>：每堂课导师先演示讲解，学员随即上手实操，学完即练、练完即会，拒绝"听完就忘"</li>
+        <li><strong>导师巡场</strong>：实操环节导师全程在场巡场指导，一对一解答学员问题，确保每位学员跟上进度</li>
+        <li><strong>真实项目</strong>：实操内容均来自真实商业项目案例，学员产出的作品可直接用于面试作品集</li>
+        <li><strong>设备齐全</strong>：专业柔光箱、拍摄器材、人手一台电脑，实操环境对标行业标准</li>
+        <li><strong>团队协作</strong>：拍摄实操采用小组协作模式，学员轮流担任导演、摄影、灯光、场务等角色，模拟真实剧组工作流程</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 学员账号案例 ========== -->
+<section id="student-accounts" class="section">
+  <div class="container">
+    <div class="section-tag">学员账号案例</div>
+    <h2 class="section-title">真实账号 · 真实数据 · 真实成长</h2>
+    <p class="section-desc">以下账号均为博取学员在实训期间从0到1搭建并运营的真实抖音账号，涵盖编导、IP运营、同城实体等赛道。从账号定位、内容策划到流量增长，每一步都由导师团队手把手指导，用真实数据验证教学成果。</p>
+
+    <div class="account-showcase">
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/b896152346be.webp" alt="鲁罐头（编导版）">
+        <div class="account-info">
+          <div class="name">鲁罐头（编导版）</div>
+          <div class="tag">编导方向 · 抖音</div>
+          <div class="stats">
+            <span>获赞 <strong>8.3万</strong></span>
+            <span>粉丝 <strong>737</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/aecbe07f7d44.webp" alt="装修不婷（北京）">
+        <div class="account-info">
+          <div class="name">装修不婷（北京）</div>
+          <div class="tag">同城实体 · 装修赛道</div>
+          <div class="stats">
+            <span>获赞 <strong>1.9万</strong></span>
+            <span>粉丝 <strong>2157</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/9ea7fb08f4d9.webp" alt="一颗野桃（编导）">
+        <div class="account-info">
+          <div class="name">一颗野桃（编导）</div>
+          <div class="tag">个人IP · 编导方向</div>
+          <div class="stats">
+            <span>获赞 <strong>59.4万</strong></span>
+            <span>粉丝 <strong>1.3万</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/b51d38bad6f0.webp" alt="冰糖学长（IP运营）">
+        <div class="account-info">
+          <div class="name">冰糖学长（IP运营）</div>
+          <div class="tag">IP运营 · 自我提升赛道</div>
+          <div class="stats">
+            <span>获赞 <strong>12.7万</strong></span>
+            <span>粉丝 <strong>5155</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/f4ea6bd238a5.webp" alt="枳枳的编导日记">
+        <div class="account-info">
+          <div class="name">枳枳的编导日记</div>
+          <div class="tag">编导方向 · 小红书</div>
+          <div class="stats">
+            <span>获赞与收藏 <strong>27.6万</strong></span>
+            <span>粉丝 <strong>2595</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/42382967c669.webp" alt="一熊编导">
+        <div class="account-info">
+          <div class="name">一熊编导</div>
+          <div class="tag">编导方向 · 抖音</div>
+          <div class="stats">
+            <span>获赞 <strong>1.3万</strong></span>
+            <span>粉丝 <strong>380</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/36bb9a0e468d.webp" alt="隔壁编导老王">
+        <div class="account-info">
+          <div class="name">隔壁编导老王</div>
+          <div class="tag">编导方向 · 抖音</div>
+          <div class="stats">
+            <span>获赞 <strong>9349</strong></span>
+            <span>粉丝 <strong>864</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/9c354a93a9c0.webp" alt="编导老赵">
+        <div class="account-info">
+          <div class="name">编导老赵</div>
+          <div class="tag">编导方向 · 抖音</div>
+          <div class="stats">
+            <span>获赞 <strong>1.3万</strong></span>
+            <span>粉丝 <strong>2048</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/e9d70c9969d5.webp" alt="编导小珍">
+        <div class="account-info">
+          <div class="name">编导小珍</div>
+          <div class="tag">编导方向 · 小红书</div>
+          <div class="stats">
+            <span>获赞与收藏 <strong>3.8万</strong></span>
+            <span>粉丝 <strong>917</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/d62db37bc22f.webp" alt="编导小孙（IP运营）">
+        <div class="account-info">
+          <div class="name">编导小孙</div>
+          <div class="tag">IP运营方向 · 抖音</div>
+          <div class="stats">
+            <span>获赞 <strong>6.1万</strong></span>
+            <span>粉丝 <strong>3988</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/f52403775039.webp" alt="晏青（运营版）">
+        <div class="account-info">
+          <div class="name">晏青（运营版）</div>
+          <div class="tag">运营方向 · 抖音</div>
+          <div class="stats">
+            <span>获赞 <strong>2.7万</strong></span>
+            <span>粉丝 <strong>2791</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="account-card">
+        <img loading="lazy" decoding="async" src="assets/images/8f7e7261d2d0.webp" alt="Aug">
+        <div class="account-info">
+          <div class="name">Aug</div>
+          <div class="tag">编导方向 · 抖音</div>
+          <div class="stats">
+            <span>获赞 <strong>4.5万</strong></span>
+            <span>粉丝 <strong>1106</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight-box" style="margin-top: 2.5rem;">
+      <h4>学员账号成长亮点</h4>
+      <ul>
+        <li><strong>一颗野桃（编导）</strong>：二本法学生转行编导，实训期间账号获赞59.4万，粉丝突破1.3万，月薪从3K增长至1W+，是"零基础转行+账号孵化"双成功的典型案例</li>
+        <li><strong>枳枳的编导日记</strong>：小红书编导方向账号，获赞与收藏27.6万，粉丝2595，以"入行5年天选编导"人设分享实战干货，内容爆发力极强</li>
+        <li><strong>冰糖学长（IP运营）</strong>：定位自我提升与IP运营赛道，获赞12.7万，已形成"账号诊断+内容教学"的变现闭环，从学员成长为可独立提供服务的IP操盘手</li>
+        <li><strong>编导小孙（IP运营）</strong>：抖音IP运营方向账号，获赞6.1万，粉丝3988，以编导专业视角切入IP运营赛道，获赞粉丝比达15:1，内容深受平台推荐</li>
+        <li><strong>Aug</strong>：抖音编导方向账号，获赞4.5万，粉丝1106，获赞粉丝比高达40:1，内容质量远超账号体量，展现出极强的爆款创作能力</li>
+        <li><strong>编导小珍</strong>：小红书编导方向账号，获赞与收藏3.8万，粉丝917，以女性编导视角切入内容创作，获赞粉丝比达41:1，内容收藏率极高</li>
+        <li><strong>晏青（运营版）</strong>：抖音运营方向账号，获赞2.7万，粉丝2791，以猫咪IP形象搭配运营干货，差异化人设识别度强，获赞粉丝比近10:1</li>
+        <li><strong>编导老赵</strong>：抖音编导方向账号，获赞1.3万，粉丝2048，以专业编导视角输出内容，账号稳步增长中</li>
+        <li><strong>装修不婷（北京）</strong>：同城实体赛道账号，以"工地女性"差异化人设切入装修行业，获赞1.9万，粉丝2157，验证了垂直行业+同城流量的实操打法</li>
+        <li><strong>隔壁编导老王</strong>：抖音编导方向账号，获赞9349，粉丝864，内容获赞量远超粉丝量，展现出极强的算法推荐潜力</li>
+        <li><strong>鲁罐头（编导版）</strong>：编导方向账号，获赞8.3万，以创意编导内容为核心，展现了学员在内容创作与编导策划方面的专业能力</li>
+        <li><strong>一熊编导</strong>：抖音编导方向账号，获赞1.3万，粉丝380，获赞粉丝比高达34:1，内容质量远超账号体量，具备爆发潜力</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 就业薪资展示 ========== -->
+<section id="salary-showcase" class="salary-section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">部分学员展示</div>
+      <h2>学员<span class="highlight">高薪就业</span>喜报</h2>
+      <p class="section-desc">以下均为博取AI就业实训基地部分学员真实就业薪资offer截图，薪资12K及以上</p>
+    </div>
+
+    <div class="salary-stats">
+      <div class="salary-stat-card">
+        <div class="stat-num">97%</div>
+        <div class="stat-label">结业就业率</div>
+        <div class="stat-sub">学员成功就业比例</div>
+      </div>
+      <div class="salary-stat-card">
+        <div class="stat-num">¥10400+</div>
+        <div class="stat-label">平均就业薪资</div>
+        <div class="stat-sub">结业学员平均月薪</div>
+      </div>
+      <div class="salary-stat-card">
+        <div class="stat-num">部分学员</div>
+        <div class="stat-label">学员薪资展示</div>
+        <div class="stat-sub">高薪就业代表展示</div>
+      </div>
+      <div class="salary-stat-card">
+        <div class="stat-num">5000+</div>
+        <div class="stat-label">累计培养学员</div>
+        <div class="stat-sub">持续输送人才</div>
+      </div>
+    </div>
+
+    <div class="salary-grid">
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/38c9390dab65.webp" alt="11期刘小珍 薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">刘*珍</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/6529de885c66.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">王*越</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/148ad468c975.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">王*博</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/383824f773f7.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">陈*潮</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/877d162034eb.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">马*志</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/34a0b9c4fb25.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">于*</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/d1bafe159534.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">刘*</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/a9954c10e98e.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">史*强</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/3f2a1cd1f91f.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">史*环</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/7df2de308aa7.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">张*升</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/b5832b5672aa.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">曹*豪</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/0c092af75c59.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">李*锋</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/215e07b81df6.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">杨*青</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/1fce77ff6fd4.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">樊*丹</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/1a21c85fe26f.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">王*</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/fde2bb511ca6.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">王*超</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/efcaa47cc4f1.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">王*凯</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/9e9b9b3033a1.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">王*琴</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/57f3d1d57909.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">白*</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/620602c742a9.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">窦*露</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/bf121f91e329.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">胡*杰</span>
+        </div>
+      </div>
+      <div class="salary-card">
+        <div class="salary-card-img">
+          <img loading="lazy" decoding="async" src="assets/images/68316c18a095.webp" alt="薪资offer">
+        </div>
+        <div class="salary-card-info">
+          <span class="salary-card-name">郭*光</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="salary-note">
+      <p><strong>郑重承诺：</strong>以上薪资offer均为博取AI就业实训基地学员真实就业数据，绝无虚构。我们始终坚持以就业结果为导向，用真实成绩说话。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 联系方式 ========== -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="contact-card">
+      <h2>开启你的<span class="highlight">AI</span>职业之路</h2>
+      <div class="contact-tags">
+        <span>📝 零基础入门</span>
+        <span>🔄 转行转型</span>
+        <span>📈 技能提升</span>
+        <span>⭐ 打造个人IP</span>
+      </div>
+      <p class="contact-subtitle">无论你是哪种起点，<strong>博取AI就业实训基地</strong>都将是你最佳起点</p>
+      <div class="contact-values">
+        <div class="contact-value-item">
+          <div class="v-icon">🎯</div>
+          <div class="v-text">真项目</div>
+          <div class="v-desc">商业案例实操</div>
+        </div>
+        <div class="contact-value-item">
+          <div class="v-icon">📱</div>
+          <div class="v-text">真账号</div>
+          <div class="v-desc">真实账号孵化</div>
+        </div>
+        <div class="contact-value-item">
+          <div class="v-icon">📊</div>
+          <div class="v-text">真数据</div>
+          <div class="v-desc">数据驱动决策</div>
+        </div>
+        <div class="contact-value-item">
+          <div class="v-icon">💰</div>
+          <div class="v-text">真变现</div>
+          <div class="v-desc">商业价值落地</div>
+        </div>
+      </div>
+      <p class="contact-slogan">用实战打磨能力，用结果证明价值</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 北京博取教育科技有限公司 · 博取AI就业实训基地<br>以专业赋能成长，以实战成就未来<br>真项目 · 真账号 · 真数据 · 真变现</p>
+</footer>
+
+
+
+
+<!-- 框架组件：返回顶部 -->
+<button class="back-to-top" type="button" aria-label="返回页面顶部" title="返回顶部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5m0 0l-6 6m6-6l6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  var progress = document.querySelector('.read-progress');
+  var backTop = document.querySelector('.back-to-top');
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
+  var targets = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+
+  function onScroll() {
+    var max = root.scrollHeight - root.clientHeight;
+    var y = window.pageYOffset || root.scrollTop || 0;
+    if (progress) progress.style.width = (max > 0 ? Math.min(100, y / max * 100) : 0) + '%';
+    if (backTop) backTop.classList.toggle('show', y > 320);
+    var active = -1;
+    for (var i = 0; i < targets.length; i++) {
+      if (targets[i] && targets[i].getBoundingClientRect().top <= 140) active = i;
+    }
+    links.forEach(function (a, i) { a.classList.toggle('active', i === active); });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  onScroll();
+
+  if (backTop) backTop.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+if ('scrollBehavior' in document.documentElement.style) document.documentElement.style.scrollBehavior = 'smooth';
+  root.classList.add('js-ready');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -6% 0px' });
+    var cards = document.querySelectorAll('.card, .teacher-card, .path-card, .section-title');
+    Array.prototype.forEach.call(cards, function (el) { el.classList.add('reveal'); io.observe(el); });
+  } else {
+    Array.prototype.forEach.call(document.querySelectorAll('.reveal'), function (el) { el.classList.add('in'); });
+  }
+})();
+</script>
+
+</body></html>
